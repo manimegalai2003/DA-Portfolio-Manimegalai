@@ -40,18 +40,6 @@ const Header = () => {
               </button>
             ))}
           </div>
-
-          <div className="flex items-center space-x-3">
-            <Button size="sm" variant="ghost" className="hover:text-purple-400 p-2">
-              <Mail className="w-4 h-4" />
-            </Button>
-            <Button size="sm" variant="ghost" className="hover:text-purple-400 p-2">
-              <Github className="w-4 h-4" />
-            </Button>
-            <Button size="sm" variant="ghost" className="hover:text-purple-400 p-2">
-              <Linkedin className="w-4 h-4" />
-            </Button>
-          </div>
         </div>
       </nav>
     </header>

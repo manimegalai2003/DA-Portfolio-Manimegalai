@@ -8,7 +8,7 @@ const Projects = () => {
   title: "Restaurant Website",
   description: "Developed a modern, responsive restaurant website featuring menu display, table reservations, and customer feedback system.",
   technologies: ["HTML5", "CSS3", "JavaScript", "Bootstrap"],
-  link: "https://github.com/manimegalai2003/Resturant-website",
+  link: "https://github.com/manimegalai2003/Restaurant-Website.git",
   demo: "https://resturant-website-lovat.vercel.app/index.html",
   category: "Web Design",
   image: "🍽",

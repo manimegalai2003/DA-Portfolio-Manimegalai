@@ -68,7 +68,7 @@ const Hero = () => {
           <h1 className="text-6xl md:text-8xl font-bold mb-6 relative">
             <span className="text-gradient bg-gradient-to-r from-purple-400 via-pink-400 to-purple-600 bg-clip-text text-transparent animate-gradient">Mani</span>
             <span className="text-gradient bg-gradient-to-r from-purple-400 via-pink-400 to-purple-600 bg-clip-text text-transparent animate-gradient">
-              megalai
+              megalai S
             </span>
             {/* Decorative underline */}
             <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-32 h-1 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full"></div>
@@ -129,7 +129,7 @@ const Hero = () => {
           >
             <span className="flex items-center">
   <a
-    href="https://drive.google.com/file/d/1A3QcqB8PQ32i0_a_Hwk9WS-3q1myt5Jm/view"
+    href="https://drive.google.com/file/d/1Txt2e2vIR4eu9tTZOc2UOFgpjwtKPc83/view?usp=sharing"
     target="_blank"
     rel="noopener noreferrer"
   >
@@ -142,7 +142,7 @@ const Hero = () => {
         {/* Enhanced social links */}
         <div className="flex items-center justify-center space-x-8 animate-fade-in" style={{ animationDelay: '1.2s' }}>
           <a 
-            href="mailto:manimegalaim10152003@gmail.com"
+            href="mailto:manimegalaisekar.sm@gmail.com"
             className="group relative p-4 rounded-full bg-white/5 border border-white/10 hover:border-purple-400/50 transition-all duration-300 transform hover:scale-110 hover:rotate-6"
           >
             <Mail className="w-6 h-6 text-gray-400 group-hover:text-purple-400 transition-colors" />
