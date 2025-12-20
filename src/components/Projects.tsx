@@ -4,46 +4,90 @@ import { Github, ExternalLink } from 'lucide-react';
 
 const Projects = () => {
   const projects = [
-   {
-  title: "Restaurant Website",
-  description: "Developed a modern, responsive restaurant website featuring menu display, table reservations, and customer feedback system.",
-  technologies: ["HTML5", "CSS3", "JavaScript", "Bootstrap"],
-  link: "https://github.com/manimegalai2003/Restaurant-Website.git",
-  demo: "https://resturant-website-lovat.vercel.app/index.html",
-  category: "Web Design",
-  image: "🍽",
-  stats: { responsive: "100%", speed: "95%" }
-},
-{
-  title: "Blood Bank Monitoring System",
-  description: "Designed a comprehensive system to track blood inventory, manage donor data, and facilitate efficient blood distribution.",
-  technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
-  link: "https://github.com/manimegalai2003/BloodBank-Monitoring-System",
-  demo: "https://resturant-website-cujv.vercel.app/", // <-- Add your live demo URL here
-  category: "Healthcare Tech",
-  image: "🩸",
-  stats: { donors: "500+", efficiency: "90%" }
-},
-{
-  title: "Ecommerce platform",
-  description: "Designed and developed a responsive portfolio website to showcase my projects, skills, and experience using React, HTML, CSS, and JavaScript.",
-  technologies: ["React", "HTML", "CSS", "JavaScript"],
-  link: "https://github.com/manimegalai2003/E-commerce-website", // <-- Your GitHub repo URL
-  demo: "https://e-commerce-website-jade-nu.vercel.app/", // <-- Your live portfolio URL
-  category: "Web Development",
-  image: "💼",
-  stats: { pages: "5+", visitors: "1K+" }
-},
-{
-  title: "Weather Prediction App",
-  description: "Developed a weather prediction application using OpenWeatherMap API, providing real-time weather updates and forecasts with a clean, responsive interface.",
-  technologies: ["HTML", "CSS", "JavaScript", "OpenWeatherMap API"],
-  link: "https://github.com/manimegalai2003/Weather-Prediction-",
-  demo: "https://weather-prediction-w5qy.vercel.app/",
-  category: "Web Application",
-  image: "⛅",
-  stats: { cities: "100+", accuracy: "Real-time" }
-}
+    {
+      title: "Library Management System",
+      description:
+        "Developed a web-based library management system to manage books, issue and return records, and track library activities efficiently.",
+      technologies: ["React.js", "JavaScript", "HTML5", "CSS3"],
+      link: "https://github.com/manimegalai2003/REACT---LMS.git",
+      demo: "https://manimegalai-lms.netlify.app/",
+      category: "React",
+      image: "📚",
+      stats: { efficiency: "90%", usability: "95%" },
+    },
+    {
+      title: "Employee Management System",
+      description:
+        "Built an employee management system to handle employee records, roles, and basic HR operations through a simple and user-friendly interface.",
+      technologies: ["React.js", "JavaScript", "HTML5", "CSS3"],
+      link: "https://github.com/manimegalai2003/employee-system.git",
+      demo: "https://employee-system-ems.netlify.app/select-login",
+      category: "React",
+      image: "👨‍💼",
+      stats: { performance: "92%", reliability: "94%" },
+    },
+    {
+      title: "Smart Complaint Management System",
+      description:
+        "Developed a full-stack web application to register, track, and manage public complaints with role-based access for users and administrators.",
+      technologies: [
+        "React.js",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Node.js",
+        "Express.js",
+      ],
+      link: "https://github.com/manimegalai2003/Smart-complaint-system.git",
+      category: "Full Stack",
+      image: "🏛️",
+      stats: { transparency: "95%", efficiency: "93%" },
+    },
+
+    {
+      title: "Restaurant Website",
+      description:
+        "Developed a modern, responsive restaurant website featuring menu display, table reservations, and customer feedback system.",
+      technologies: ["HTML5", "CSS3", "JavaScript", "Bootstrap"],
+      link: "https://github.com/manimegalai2003/Restaurant-Website.git",
+      demo: "https://resturant-website-lovat.vercel.app/index.html",
+      category: "Web Design",
+      image: "🍽",
+      stats: { responsive: "100%", speed: "95%" },
+    },
+    {
+      title: "Blood Bank Monitoring System",
+      description:
+        "Designed a comprehensive system to track blood inventory, manage donor data, and facilitate efficient blood distribution.",
+      technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+      link: "https://github.com/manimegalai2003/BloodBank-Monitoring-System",
+      demo: "https://resturant-website-cujv.vercel.app/", // <-- Add your live demo URL here
+      category: "Healthcare Tech",
+      image: "🩸",
+      stats: { donors: "500+", efficiency: "90%" },
+    },
+    {
+      title: "Ecommerce platform",
+      description:
+        "Designed and developed a responsive portfolio website to showcase my projects, skills, and experience using React, HTML, CSS, and JavaScript.",
+      technologies: ["React", "HTML", "CSS", "JavaScript"],
+      link: "https://github.com/manimegalai2003/E-commerce-website", // <-- Your GitHub repo URL
+      demo: "https://e-commerce-website-jade-nu.vercel.app/", // <-- Your live portfolio URL
+      category: "Web Development",
+      image: "💼",
+      stats: { pages: "5+", visitors: "1K+" },
+    },
+    {
+      title: "Weather Prediction App",
+      description:
+        "Developed a weather prediction application using OpenWeatherMap API, providing real-time weather updates and forecasts with a clean, responsive interface.",
+      technologies: ["HTML", "CSS", "JavaScript", "OpenWeatherMap API"],
+      link: "https://github.com/manimegalai2003/Weather-Prediction-",
+      demo: "https://weather-prediction-w5qy.vercel.app/",
+      category: "Web Application",
+      image: "⛅",
+      stats: { cities: "100+", accuracy: "Real-time" },
+    },
   ];
 
   return (
@@ -63,7 +107,7 @@ const Projects = () => {
               </span>
             </h2>
             <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-              A showcase of my latest work in web development, AI/ML, and creative solutions
+              A showcase of my latest work in web development and design.
             </p>
           </div>
           

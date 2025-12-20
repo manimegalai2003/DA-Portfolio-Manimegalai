@@ -81,7 +81,7 @@ const Contact = () => {
                       id="email"
                       name="email"
                       type="email"
-                      placeholder="your.email@example.com"
+                      placeholder="your.email@gmail.com"
                       value={formData.email}
                       onChange={handleChange}
                       className="bg-gray-800/50 border-gray-600 text-white placeholder-gray-400 focus:border-purple-400"

@@ -23,7 +23,10 @@ const Skills = () => {
       skills: [
         { name: "HTML5", level: 95 },
         { name: "CSS3", level: 90 },
-        { name: "React.js", level: 80 }
+        { name: "Bootstrap", level: 80 },
+        { name: "React.js", level: 80 },
+        { name: "Node.js", level: 80 },
+
       ],
       color: "from-blue-500 to-purple-600",
       bgGradient: "from-blue-500/20 to-purple-600/20"
@@ -42,9 +45,12 @@ const Skills = () => {
       category: "Tools & Platforms",
       icon: Settings,
       skills: [
-        { name: "Git", level: 85 },
+        { name: "GitHub", level: 85 },
         { name: "VS Code", level: 90 },
-        { name: "Jupyter Notebook", level: 80 }
+        { name: "Figma", level: 80 },
+        { name: "Vercel", level: 75 },
+        { name: "Netlify", level: 75 },
+        
       ],
       color: "from-orange-500 to-purple-600",
       bgGradient: "from-orange-500/20 to-purple-600/20"
