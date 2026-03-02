@@ -8,34 +8,8 @@ const Experience = () => {
       description: "Developed full-stack web applications using MongoDB, Express.js, React, and Node.js.",
       color: "from-blue-500 to-purple-600"
     },
-    {
-      title: "Machine Learning Intern",
-      company: "CodSoft",
-      duration: "1 Month",
-      description: "Implemented machine learning models for loan prediction and sentiment analysis using Python and scikit-learn.",
-      color: "from-purple-500 to-pink-600"
-    },
-    {
-      title: "Industrial Intern",
-      company: "Krishnaveni Carbon Products Pvt. Ltd.",
-      duration: "15 Days",
-      description: "Gained industry exposure in manufacturing carbon-based engineering components and understanding real-time production environments.",
-      color: "from-green-500 to-blue-600"
-    },
-    {
-      title: "Data Analytics Intern",
-      company: "YBI Foundation",
-      duration: "1 Month",
-      description: "Analysed datasets, generated insights, and built dashboards for decision-making using Power BI and Excel.",
-      color: "from-orange-500 to-red-600"
-    },
-    {
-      title: "AI/ML Intern",
-      company: "Internpe",
-      duration: "1 Month",
-      description: "Applied AI/ML programming to develop predictive models for loan approval and sentiment analysis using Python and scikit-learn.",
-      color: "from-indigo-500 to-purple-600"
-    }
+    
+    
   ];
 
   return (

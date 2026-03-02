@@ -1,47 +1,47 @@
-
-import { Button } from '@/components/ui/button';
-import { Github, ExternalLink } from 'lucide-react';
+import { Button } from "@/components/ui/button";
+import { Github, ExternalLink } from "lucide-react";
 
 const Projects = () => {
   const projects = [
     {
-      title: "Library Management System",
+      title: "Library Management System – UI/UX Case Study",
       description:
-        "Developed a web-based library management system to manage books, issue and return records, and track library activities efficiently.",
-      technologies: ["React.js", "JavaScript", "HTML5", "CSS3"],
-      link: "https://github.com/manimegalai2003/REACT---LMS.git",
-      demo: "https://manimegalai-lms.netlify.app/",
-      category: "React",
-      image: "📚",
-      stats: { efficiency: "90%", usability: "95%" },
-    },
-    {
-      title: "Employee Management System",
-      description:
-        "Built an employee management system to handle employee records, roles, and basic HR operations through a simple and user-friendly interface.",
-      technologies: ["React.js", "JavaScript", "HTML5", "CSS3"],
-      link: "https://github.com/manimegalai2003/employee-system.git",
-      demo: "https://employee-system-ems.netlify.app/select-login",
-      category: "React",
-      image: "👨‍💼",
-      stats: { performance: "92%", reliability: "94%" },
-    },
-    {
-      title: "Smart Complaint Management System",
-      description:
-        "Developed a full-stack web application to register, track, and manage public complaints with role-based access for users and administrators.",
+        "Designed a complete UI/UX case study for a Library Management System, including competitive analysis, user flow, wireframes, style guide, and final landing page. Focused on creating a clear, accessible, and user-friendly experience.",
       technologies: [
-        "React.js",
-        "JavaScript",
-        "HTML5",
-        "CSS3",
-        "Node.js",
-        "Express.js",
+        "Figma",
+        "User Flow Design",
+        "Wireframing",
+        "Style Guide",
+        "UI Design",
       ],
-      link: "https://github.com/manimegalai2003/Smart-complaint-system.git",
-      category: "Full Stack",
-      image: "🏛️",
-      stats: { transparency: "95%", efficiency: "93%" },
+      link: "https://www.figma.com/design/sbXmjq7at3QkKcOICr2sVy/Web-Presentation?node-id=82-58&t=Fz5yocUpcN6NPivj-1",
+      demo: "https://www.behance.net/gallery/243075047/Library-Management-System-Website-Presentation",
+      category: "UI/UX",
+      image: "📚",
+      stats: { usability: "94%", visual_clarity: "92%" },
+    },
+    {
+      title: "Ecommerce platform",
+      description:
+        "Designed and developed a responsive portfolio website to showcase my projects, skills, and experience using React, HTML, CSS, and JavaScript.",
+      technologies: ["HTML", "CSS", "Bootstrap"],
+      link: "https://github.com/manimegalai2003/KGM-PROJECT-3.git", // <-- Your GitHub repo URL
+      demo: "https://zyraa-website.netlify.app/", // <-- Your live portfolio URL
+      category: "Web Development",
+      image: "💼",
+      stats: { pages: "5+", visitors: "1K+" },
+    },
+
+    {
+      title: "Weather Prediction App",
+      description:
+        "Developed a weather prediction application using OpenWeatherMap API, providing real-time weather updates and forecasts with a clean, responsive interface.",
+      technologies: ["HTML", "CSS", "JavaScript", "OpenWeatherMap API"],
+      link: "https://github.com/manimegalai2003/Weather-Prediction-",
+      demo: "https://weather-prediction-w5qy.vercel.app/",
+      category: "Web Application",
+      image: "⛅",
+      stats: { cities: "100+", accuracy: "Real-time" },
     },
 
     {
@@ -56,42 +56,23 @@ const Projects = () => {
       stats: { responsive: "100%", speed: "95%" },
     },
     {
-      title: "Blood Bank Monitoring System",
+      title: "Library Management System",
       description:
-        "Designed a comprehensive system to track blood inventory, manage donor data, and facilitate efficient blood distribution.",
-      technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
-      link: "https://github.com/manimegalai2003/BloodBank-Monitoring-System",
-      demo: "https://resturant-website-cujv.vercel.app/", // <-- Add your live demo URL here
-      category: "Healthcare Tech",
-      image: "🩸",
-      stats: { donors: "500+", efficiency: "90%" },
-    },
-    {
-      title: "Ecommerce platform",
-      description:
-        "Designed and developed a responsive portfolio website to showcase my projects, skills, and experience using React, HTML, CSS, and JavaScript.",
-      technologies: ["React", "HTML", "CSS", "JavaScript"],
-      link: "https://github.com/manimegalai2003/E-commerce-website", // <-- Your GitHub repo URL
-      demo: "https://e-commerce-website-jade-nu.vercel.app/", // <-- Your live portfolio URL
-      category: "Web Development",
-      image: "💼",
-      stats: { pages: "5+", visitors: "1K+" },
-    },
-    {
-      title: "Weather Prediction App",
-      description:
-        "Developed a weather prediction application using OpenWeatherMap API, providing real-time weather updates and forecasts with a clean, responsive interface.",
-      technologies: ["HTML", "CSS", "JavaScript", "OpenWeatherMap API"],
-      link: "https://github.com/manimegalai2003/Weather-Prediction-",
-      demo: "https://weather-prediction-w5qy.vercel.app/",
-      category: "Web Application",
-      image: "⛅",
-      stats: { cities: "100+", accuracy: "Real-time" },
+        "Developed a web-based library management system to manage books, issue and return records, and track library activities efficiently.",
+      technologies: ["React.js", "JavaScript", "HTML5", "CSS3"],
+      link: "https://github.com/manimegalai2003/REACT---LMS.git",
+      demo: "https://manimegalai-lms.netlify.app/",
+      category: "React",
+      image: "📚",
+      stats: { efficiency: "90%", usability: "95%" },
     },
   ];
 
   return (
-    <section id="projects" className="py-24 px-6 bg-black/20 relative overflow-hidden">
+    <section
+      id="projects"
+      className="py-24 px-6 bg-black/20 relative overflow-hidden"
+    >
       {/* Background decorations */}
       <div className="absolute inset-0 opacity-30">
         <div className="absolute top-32 left-20 w-72 h-72 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-float"></div>
@@ -110,12 +91,15 @@ const Projects = () => {
               A showcase of my latest work in web development and design.
             </p>
           </div>
-          
+
           <div className="max-w-7xl mx-auto">
             {/* All Projects in Same Format */}
             <div className="space-y-16">
               {projects.map((project, index) => (
-                <div key={index} className="glass-card rounded-3xl p-8 md:p-12 hover-glow transition-all duration-500 animate-fade-in-left group">
+                <div
+                  key={index}
+                  className="glass-card rounded-3xl p-8 md:p-12 hover-glow transition-all duration-500 animate-fade-in-left group"
+                >
                   <div className="grid lg:grid-cols-2 gap-12 items-center">
                     <div>
                       <div className="flex items-center gap-4 mb-6">
@@ -129,14 +113,14 @@ const Projects = () => {
                           </h3>
                         </div>
                       </div>
-                      
+
                       <p className="text-lg text-gray-300 mb-8 leading-relaxed">
                         {project.description}
                       </p>
-                      
+
                       <div className="flex flex-wrap gap-3 mb-8">
                         {project.technologies.map((tech, techIndex) => (
-                          <span 
+                          <span
                             key={techIndex}
                             className="bg-gradient-to-r from-purple-600/30 to-pink-600/30 text-purple-200 px-4 py-2 rounded-full text-sm font-medium border border-purple-600/30"
                           >
@@ -144,37 +128,45 @@ const Projects = () => {
                           </span>
                         ))}
                       </div>
-                      
-                     <div className="flex gap-4">
-  <Button 
-    className="group bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-500 hover:to-purple-600 text-white px-6 py-3 rounded-xl shadow-lg hover:shadow-purple-500/25 transition-all duration-300 transform hover:scale-105"
-    onClick={() => window.open(project.link, '_blank')}
-  >
-    <Github className="w-5 h-5 mr-2 group-hover:rotate-12 transition-transform" />
-    View Project
-    <ExternalLink className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-  </Button>
-  {project.demo && (
-    <Button
-      className="group border-2 border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-black px-6 py-3 rounded-xl transition-all duration-300 transform hover:scale-105"
-      variant="outline"
-      onClick={() => window.open(project.demo, '_blank')}
-    >
-      Live Demo
-      <ExternalLink className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-    </Button>
-  )}
-</div>
-                      
+
+                      <div className="flex gap-4">
+                        <Button
+                          className="group bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-500 hover:to-purple-600 text-white px-6 py-3 rounded-xl shadow-lg hover:shadow-purple-500/25 transition-all duration-300 transform hover:scale-105"
+                          onClick={() => window.open(project.link, "_blank")}
+                        >
+                          <Github className="w-5 h-5 mr-2 group-hover:rotate-12 transition-transform" />
+                          View Project
+                          <ExternalLink className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                        </Button>
+                        {project.demo && (
+                          <Button
+                            className="group border-2 border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-black px-6 py-3 rounded-xl transition-all duration-300 transform hover:scale-105"
+                            variant="outline"
+                            onClick={() => window.open(project.demo, "_blank")}
+                          >
+                            Live Demo
+                            <ExternalLink className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                          </Button>
+                        )}
+                      </div>
                     </div>
-                    
+
                     <div className="grid grid-cols-2 gap-6">
-                      {Object.entries(project.stats).map(([key, value], statIndex) => (
-                        <div key={key} className="text-center p-6 bg-gradient-to-br from-purple-900/30 to-pink-900/30 rounded-2xl border border-purple-500/20">
-                          <div className="text-3xl font-bold text-purple-400 mb-2">{value}</div>
-                          <div className="text-gray-400 capitalize">{key}</div>
-                        </div>
-                      ))}
+                      {Object.entries(project.stats).map(
+                        ([key, value], statIndex) => (
+                          <div
+                            key={key}
+                            className="text-center p-6 bg-gradient-to-br from-purple-900/30 to-pink-900/30 rounded-2xl border border-purple-500/20"
+                          >
+                            <div className="text-3xl font-bold text-purple-400 mb-2">
+                              {value}
+                            </div>
+                            <div className="text-gray-400 capitalize">
+                              {key}
+                            </div>
+                          </div>
+                        ),
+                      )}
                     </div>
                   </div>
                 </div>

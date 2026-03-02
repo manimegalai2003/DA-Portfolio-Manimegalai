@@ -1,17 +1,12 @@
-
-import { Button } from '@/components/ui/button';
-import { Github, Mail, Linkedin, ArrowDown } from 'lucide-react';
-import { useState, useEffect } from 'react';
+import { Button } from "@/components/ui/button";
+import { Github, Mail, Linkedin, ArrowDown } from "lucide-react";
+import { useState, useEffect } from "react";
 
 const Hero = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [currentRole, setCurrentRole] = useState(0);
-  
-  const roles = [
-    "Frontend Developer",
-    "Full Stack Developer", 
-    "Web Developer"
-  ];
+
+  const roles = [ "UI/UX Designer", "MERN Stack Developer"];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -24,18 +19,18 @@ const Hero = () => {
     const handleMouseMove = (e: MouseEvent) => {
       setMousePosition({ x: e.clientX, y: e.clientY });
     };
-    window.addEventListener('mousemove', handleMouseMove);
-    return () => window.removeEventListener('mousemove', handleMouseMove);
+    window.addEventListener("mousemove", handleMouseMove);
+    return () => window.removeEventListener("mousemove", handleMouseMove);
   }, []);
 
   const scrollToContact = () => {
-    const element = document.getElementById('contact');
-    element?.scrollIntoView({ behavior: 'smooth' });
+    const element = document.getElementById("contact");
+    element?.scrollIntoView({ behavior: "smooth" });
   };
 
   const scrollToProjects = () => {
-    const element = document.getElementById('projects');
-    element?.scrollIntoView({ behavior: 'smooth' });
+    const element = document.getElementById("projects");
+    element?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
@@ -96,19 +91,21 @@ const Hero = () => {
         >
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed mb-6">
             Passionate{" "}
-            <span className="text-purple-400 font-semibold">Frontend</span> and
             <span className="text-purple-400 font-semibold">
-              {" "}
-              Full Stack Developer
+              UI/UX Designer
             </span>{" "}
-            specializing in creating
-            <span className="text-purple-400 font-semibold"> modern</span>,
-            <span className="text-purple-400 font-semibold"> responsive</span>{" "}
-            web applications. Proficient in{" "}
-            <span className="text-purple-400 font-semibold">React.js</span>,
-            <span className="text-purple-400 font-semibold"> Node.js</span>,{" "}
-            <span className="text-purple-400 font-semibold"> JavaScript</span>
-            ,and modern web technologies.
+            and{" "}
+            <span className="text-purple-400 font-semibold">
+              MERN Stack Developer
+            </span>{" "}
+            focused on building{" "}
+            <span className="text-purple-400 font-semibold">modern</span>,{" "}
+            <span className="text-purple-400 font-semibold">responsive</span>,
+            and user-friendly web applications. Skilled in{" "}
+            <span className="text-purple-400 font-semibold">React.js</span>,{" "}
+            <span className="text-purple-400 font-semibold">Node.js</span>, and{" "}
+            <span className="text-purple-400 font-semibold">JavaScript</span>,
+            with a strong understanding of modern web technologies.
           </p>
         </div>
 

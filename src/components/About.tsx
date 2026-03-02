@@ -1,4 +1,3 @@
-
 const About = () => {
   return (
     <section id="about" className="py-20 px-6">
@@ -24,24 +23,17 @@ const About = () => {
 
                 {/* Content section */}
                 <div className="flex-1">
-                  <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                    <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                      I am a dedicated Frontend Developer with a solid
-                      background in modern web technologies and a strong
-                      commitment to delivering outstanding user experiences. I
-                      am currently pursuing a B.Tech in Artificial Intelligence
-                      and Data Science at KGiSL Institute of Technology,
-                      maintaining a CGPA of 8.15.
-                    </p>
-                  </p>
+                 
 
                   <p className="text-lg text-gray-300 leading-relaxed">
-                    I am a Frontend and Full-Stack Developer with hands-on
-                    experience in React.js & Node.js. Through internships and project
-                    work, I have developed the ability to design and implement
-                    responsive, user-friendly, and scalable web applications,
-                    effectively translating complex requirements into functional
-                    solutions.
+                    I am a motivated UI/UX Designer with a strong foundation in
+                    design principles, gained through structured coursework
+                    along with MERN stack development. I have developed the
+                    ability to understand user needs, think critically, and
+                    create intuitive, visually appealing interfaces. I am
+                    passionate about designing clean, responsive, and
+                    user-centered digital experiences that solve real-world
+                    problems.
                   </p>
                 </div>
               </div>
