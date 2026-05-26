@@ -5,7 +5,7 @@ const Footer = () => {
       <div className="container mx-auto">
         <div className="text-center">
           <p className="text-gray-400">
-            © 2025 Manimegalai S. Built with React, TypeScript, and Tailwind CSS.
+            © 2025 Manimegalai S. Built with React.
           </p>
           <p className="text-gray-500 text-sm mt-2">
             Designed and developed with ❤️

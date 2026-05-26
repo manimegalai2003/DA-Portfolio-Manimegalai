@@ -23,17 +23,15 @@ const About = () => {
 
                 {/* Content section */}
                 <div className="flex-1">
-                 
-
                   <p className="text-lg text-gray-300 leading-relaxed">
-                    I am a motivated UI/UX Designer with a strong foundation in
-                    design principles, gained through structured coursework
-                    along with MERN stack development. I have developed the
-                    ability to understand user needs, think critically, and
-                    create intuitive, visually appealing interfaces. I am
-                    passionate about designing clean, responsive, and
-                    user-centered digital experiences that solve real-world
-                    problems.
+                    I am a motivated UI/UX Designer and Frontend Developer with
+                    a strong foundation in design principles and MERN stack
+                    development. I have the ability to understand user needs,
+                    think critically, and create intuitive, visually appealing
+                    interfaces. I am passionate about designing clean,
+                    responsive, and user-centered digital experiences that solve
+                    real-world problems while delivering seamless functionality
+                    and improved user experience.
                   </p>
                 </div>
               </div>

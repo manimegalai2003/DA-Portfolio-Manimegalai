@@ -3,14 +3,7 @@ import { Award, Trophy, Star } from 'lucide-react';
 
 const Achievements = () => {
   const achievements = [
-    {
-      title: "AI Financial Planner – 5th Place",
-      event: "AITM CodeFest Hackathon",
-      description: "Built an AI-driven financial assistant using LSTM to help users manage budgets and investments.",
-      icon: Trophy,
-      color: "from-yellow-400 to-orange-500",
-      rank: "5th"
-    },
+    
     {
       title: "Responsive Environmental Website – 3rd Place",
       event: "Web Designing Project",

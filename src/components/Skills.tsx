@@ -7,17 +7,6 @@ const Skills = () => {
 
   const skillCategories = [
     {
-      category: "Programming Languages",
-      icon: Code,
-      skills: [
-        { name: "Python", level: 80 },
-        { name: "JavaScript", level: 85 },
-        { name: "SQL", level: 80 }
-      ],
-      color: "from-purple-500 to-purple-700",
-      bgGradient: "from-purple-500/20 to-purple-700/20"
-    },
-    {
       category: "Web Technologies",
       icon: Globe,
       skills: [
@@ -36,7 +25,6 @@ const Skills = () => {
       icon: Database,
       skills: [
         { name: "MongoDB", level: 75 },
-        { name: "MySQL", level: 85 }
       ],
       color: "from-green-500 to-purple-600",
       bgGradient: "from-green-500/20 to-purple-600/20"
